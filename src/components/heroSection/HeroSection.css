@@ -1,0 +1,12 @@
+.hero {
+  padding: 32px 0 0;
+}
+.hero-body {
+  padding: 48px 24px;
+}
+
+.profile-avatar {
+    width: 270px;
+    height: auto;
+    margin: 32px 0;
+}
