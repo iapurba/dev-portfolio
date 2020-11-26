@@ -1,0 +1,15 @@
+.skills {
+  margin: -200px 0 0;
+}
+.skill-set {
+  display: grid;
+  grid-gap:1px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+.box {
+  background: #ffffff;
+  padding: 70px 45px;
+}
