@@ -7,6 +7,7 @@ const SkillSet = () => {
     <section className='skills'>
       <Container>
         <div className='skill-set shadow-sm'>
+        <div className='box-parent'>
           <div className='box'>
             <h3 className='title'>Front-end</h3>
             <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
@@ -30,6 +31,7 @@ const SkillSet = () => {
             <p>SQL</p>
             <p><strong>Dev tools</strong></p>
             <p>Postgress, MySQL, SQLite, Valentina Studio</p>
+          </div>
           </div>
         </div>
       </Container>
