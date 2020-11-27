@@ -1,11 +1,12 @@
 .project-card {
   padding: 60px 35px;
   border-radius: 20px;
-  background: pink;
+  /* background: linear-gradient(89deg, #F8BBD0 0%, #E0F7FA 100%); */
+  background: skyblue;
 }
 .project-links {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 .card-text {
