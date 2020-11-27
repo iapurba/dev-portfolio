@@ -1,0 +1,22 @@
+.call-to-action {
+  position: relative;
+}
+
+.call-to-action-box {
+  padding: 3.5rem 1.25rem;
+  border-radius: 20px;
+  background: #b61924;
+  box-sizing: inherit;
+  margin-bottom: -124px;
+}
+
+.level {
+  display: grid;
+  grid-gap:1px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.level-item {
+  color: #ffffff;
+  padding: 12px;
+}
