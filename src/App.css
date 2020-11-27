@@ -5,7 +5,8 @@
 }
 
 .is-colored {
-  background: #b61924;
+  /* background: #b61924; */
+  background: #252A37;
 }
 
 .title {
@@ -17,5 +18,5 @@
 }
 
 footer {
-  padding: 16px 24px 64px;
+  padding: 188px 24px 64px;
 }
