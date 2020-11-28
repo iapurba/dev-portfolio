@@ -4,9 +4,10 @@ import HeroSection from './components/heroSection/HeroSection';
 import About from './components/about/About';
 import SkillSet from './components/skillSet/SkillSet';
 import Project from './components/project/Project';
+// import Resume from './components/resume/Resume';
 import CallToAction from './components/callToAction/CallToAction';
-import {Container, Row, Col } from 'react-bootstrap';
-import Logo from './components/logo/Logo';
+import Footer from './components/footer/Footer';
+
 
 function App() {
   return (
@@ -17,14 +18,7 @@ function App() {
       <SkillSet />
       <Project />
       <CallToAction />
-      <footer className='is-colored'>
-      <Logo/>
-      <Row className='justify-content-md-center'>
-        <Col md={4}>
-          <h3 style={{color:'#ffffff'}}>Living, learning, & leveling up one day at a time.</h3>
-        </Col>
-      </Row>
-      </footer>
+      <Footer />
     </div>
   );
 }

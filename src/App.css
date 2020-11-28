@@ -2,15 +2,17 @@
 .App {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
+  background: #dddfd4;
 }
 
 .is-colored {
   /* background: #b61924; */
-  background: #252A37;
+  background: #3fb0ac;
 }
 
 .title {
   margin-bottom: 24px;
+  color:#173e43;
 }
 
 .projects {
