@@ -1,20 +1,18 @@
 import React from 'react';
 import './ProjectCard.css';
-import { Container } from 'react-bootstrap';
 
 
-const ProjectCard = () => {
+const ProjectCard = ({ name, description, url, sourceCode }) => {
   return (
-    <div className='project-card shadow-sm'>
+    <div className='project-card shadow'>
       <div className='card-body'>
-        <h3 className='title'>Robofriends</h3>
+        <h3 className='title'>{name}</h3>
         <p className='card-text'>
-          Some quick example text to build on the card title and make up the bulk of
-          the card's content.
+          {description}
         </p>
         <div className='project-links'>
-          <a href="#">View Live</a>
-          <a href="#">Source Code</a>
+          <a href={url} >View Live</a>
+          <a href={sourceCode} >Source Code</a>
         </div>
       </div>
     </div>

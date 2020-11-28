@@ -1,8 +1,8 @@
 .project-card {
-  padding: 60px 35px;
+  padding: 50px 35px;
   border-radius: 20px;
   /* background: linear-gradient(89deg, #F8BBD0 0%, #E0F7FA 100%); */
-  background: skyblue;
+  background: #fae596;
 }
 .project-links {
   display: grid;
@@ -13,6 +13,7 @@
   margin-bottom: 24px;
 }
 .project-links a{
+  color: #3fb0ac;
   padding: 8px 16px;
   text-decoration: none;
 }
