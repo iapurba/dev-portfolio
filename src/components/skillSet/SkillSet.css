@@ -12,10 +12,5 @@
   display: grid;
   grid-gap:1px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  background: #EBEDEF;
-}
-
-.box {
-  background: #ffffff;
-  padding: 70px 45px;
+  background: #dddfd4;
 }
