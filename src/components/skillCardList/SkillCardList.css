@@ -1,0 +1,23 @@
+.skills {
+  margin: -200px 0 0;
+}
+
+.skill-body {
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.box-parent {
+  display: grid;
+  grid-gap:1px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  background: #dddfd4;
+}
+
+/* Media Query: Tablet */
+@media screen and (max-width: 1025px) and (min-width: 767px){
+  .box-parent {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  }
+}
