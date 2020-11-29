@@ -3,7 +3,7 @@ import Navigation from './components/navigation/Navigation';
 import HeroSection from './components/heroSection/HeroSection';
 import About from './components/about/About';
 import SkillSet from './components/skillSet/SkillSet';
-import Project from './components/project/Project';
+import ProjectCardList from './components/projectCardList/ProjectCardList';
 // import Resume from './components/resume/Resume';
 import CallToAction from './components/callToAction/CallToAction';
 import Footer from './components/footer/Footer';
@@ -16,7 +16,7 @@ function App() {
       <HeroSection />
       <About />
       <SkillSet />
-      <Project />
+      <ProjectCardList />
       <CallToAction />
       <Footer />
     </div>
