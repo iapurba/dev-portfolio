@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className='about is-colored'>
       <Container>
-        <div className='content'>
+        <div className='about-body'>
           <h2 className='title'><strong>Hi there, I'm Apurba. Nice to meet you.</strong></h2>
           <p className='subtitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
 

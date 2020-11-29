@@ -1,13 +1,12 @@
 .about {
   color: #ffffff;
-  /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
   padding: 144px 24px 288px;
 }
 
-.content {
+.about-body {
   padding: 20px;
 }
-.content p {
+
+.about-body p {
   font-size: 20px;
-  /* padding: 0 144px; */
 }
