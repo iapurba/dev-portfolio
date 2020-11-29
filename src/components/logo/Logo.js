@@ -1,13 +1,12 @@
 import React from 'react';
-import './Logo.css'
-import brandLogo from './brandLogo2.png';
-
+import './Logo.css';
+import logo from '../../assets/brandLogo2.png';
 
 const Logo = () => {
   return (
     <div className='navbar-brand'>
-      <a href='#0'>
-        <img alt='Apurba Panja Logo' src={brandLogo} />
+      <a href='/'>
+        <img alt='Apurba Panja Logo' src={logo} />
       </a>
     </div>
   );

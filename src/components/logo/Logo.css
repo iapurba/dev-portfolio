@@ -2,3 +2,11 @@ img {
   width: 70px;
   height: 70px;
 }
+
+/* Media Query: Tablet or smaller */
+@media screen and (max-width: 1025px){
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
