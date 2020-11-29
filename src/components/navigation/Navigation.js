@@ -2,7 +2,7 @@ import Logo from '../logo/Logo';
 import './Navigation.css';
 import { Container } from 'react-bootstrap';
 
-function Navigation() {
+const Navigation = () => {
   return (
     <nav className='navbar'>
       <Container id='nav-container'>
@@ -10,8 +10,8 @@ function Navigation() {
           <Logo />
         </div>
         <div className='navbar-menu'>
-          <a className='navbar-item' href='#0'>Projects</a>
-          <a className='navbar-item' href='#0'>Resume</a>
+          <a className='navbar-item' href='#projects'>Projects</a>
+          <a className='navbar-item' href='#call-to-action'>Contact</a>
         </div>
       </Container>
       </nav>
