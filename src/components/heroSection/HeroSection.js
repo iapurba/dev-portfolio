@@ -16,7 +16,6 @@ const HeroSection = () => {
             <img className='profile-avatar rounded-circle' alt='profile' src={profileImage} />
         </div>
         <div className='hero-footer'>
-
         </div>
       </Container>
     </section>
