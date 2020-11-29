@@ -1,5 +1,5 @@
 .projects{
-  padding: 144px 24px;
+  padding: 144px 24px 96px;
 }
 
 .card-list {
@@ -8,4 +8,28 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: 1fr;
   padding: 64px 0;
+}
+
+.more-button {
+  border: 2px solid #3fb0ac;
+  padding: 16px 32px;
+  border-radius: 26px;
+  text-decoration: none;
+  color: #3fb0ac;
+}
+
+.more-button:hover {
+  border: 2px solid #3fb0ac;
+  padding: 16px 32px;
+  border-radius: 26px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #3fb0ac;
+}
+
+/* Media Query: Tablet */
+@media screen and (max-width: 1025px) and (min-width: 767px){
+  .card-list  {
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  }
 }

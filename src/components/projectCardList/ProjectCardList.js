@@ -2,27 +2,7 @@ import React from 'react';
 import ProjectCard from '../projectCard/ProjectCard';
 import { Container } from 'react-bootstrap';
 import './ProjectCardList.css'
-
-const projects = [
-  {
-    name: "RoboFriends",
-    description: "Search your favourite robots.I promose you will love this.",
-    url: "https://iapurba.github.io/robofriends/",
-    sourceCode: "https://github.com/iapurba/robofriends"
-  },
-  {
-    name: "Face Detection Brain",
-    description: "This magic brain helps to detect faces on picture. Give it a try.",
-    url: "https://facedetectingbrain.herokuapp.com/",
-    sourceCode: "https://github.com/iapurba/face-detection-brain"
-  },
-  {
-    name: "Quotes Generator",
-    description: "Generates random quotes using API. You can also tweet them if you like.",
-    url: "https://iapurba.github.io/quote-generator/",
-    sourceCode: "https://github.com/iapurba/quote-generator"
-  },
-]
+import { projects } from '../../assets/projectData';
 
 const ProjectCardList = () => {
   const cardList = projects.map((project, i) => {
@@ -37,13 +17,21 @@ const ProjectCardList = () => {
     )
   })
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
       <Container>
         <h1 className='title'><strong>My Recent Proects </strong></h1>
-        <p className='subtitle'>Here are my few web projects I have worked on.</p>
+        <p className='subtitle'>
+          Here are my few recent projects I have worked on.
+        </p>
         <div className='card-list'>
           {cardList}
         </div>
+        <a className='more-button'
+          href='https://github.com/iapurba?tab=repositories'
+          target='_blank'
+        >
+          <strong>See more on Github</strong>
+        </a>
       </Container>
     </section>
   )
