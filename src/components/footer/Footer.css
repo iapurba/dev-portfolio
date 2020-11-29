@@ -1,0 +1,10 @@
+footer {
+  padding: 188px 24px 64px;
+}
+
+/* Media Query: Tablet */
+@media screen and (max-width: 412px) {
+  footer {
+    padding-top: 22rem;
+  }
+}

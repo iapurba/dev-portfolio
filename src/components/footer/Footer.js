@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, Row, Col } from 'react-bootstrap';
 import SocialLink from '../socialLink/SocialLink';
 import Logo from '../logo/Logo';
+import './Footer.css';
 
 
 const Footer = () => {
