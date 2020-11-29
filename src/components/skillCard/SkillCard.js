@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faServer, faCode } from '@fortawesome/free-solid-svg-icons'
 
 
-const SkillCard = ({ icon, title, description, languages, frameworks, tools }) => {
+const SkillCard = ({ icon, title, description, languages, software, tools }) => {
   return (
     <div className='box'>
       <FontAwesomeIcon className='skill-icon' icon={icon}/>
@@ -17,8 +17,8 @@ const SkillCard = ({ icon, title, description, languages, frameworks, tools }) =
         <p>{languages}</p>
       </div>
       <div className='box-child'>
-        <p className='title-light'><strong>Libraries & Frameworks</strong></p>
-        <p>{frameworks}</p>
+        <p className='title-light'><strong>{software.name}</strong></p>
+        <p>{software.items}</p>
       </div>
       <div className='box-child'>
         <p className='title-light'><strong>Dev tools</strong></p>

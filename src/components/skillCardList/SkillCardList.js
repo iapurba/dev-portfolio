@@ -13,7 +13,7 @@ const SkillCardList = () => {
         title={skill.title}
         description={skill.description}
         languages={skill.languages}
-        frameworks={skill.frameworks}
+        software={skill.software}
         tools={skill.tools}
       />
     )

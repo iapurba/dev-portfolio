@@ -15,8 +15,8 @@ const CallToAction = () => {
             <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
           </div>
           <div className='level-item'>
-            <h4>iamapurbax@gmail.com</h4>
-            <h4>+91 9051555135</h4>
+            <h5>iamapurbax@gmail.com</h5>
+            <h5>+91 9051555135</h5>
           </div>
         </div>
         </div>
