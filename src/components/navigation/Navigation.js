@@ -12,7 +12,6 @@ function Navigation() {
         <div className='navbar-menu'>
           <a className='navbar-item' href='#0'>Projects</a>
           <a className='navbar-item' href='#0'>Resume</a>
-          <a className='navbar-item' href='#0'>Say Hello</a>
         </div>
       </Container>
       </nav>
