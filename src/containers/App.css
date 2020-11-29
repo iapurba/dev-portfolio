@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  background: #dddfd4;
+}
+
+.is-colored {
+  background: #3fb0ac;
+}
+
+.title {
+  margin-bottom: 24px;
+  color:#173e43;
+}
