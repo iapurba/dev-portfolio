@@ -20,3 +20,10 @@
   color: #ffffff;
   padding: 12px;
 }
+
+/* Media Query: Tablet */
+@media screen and (max-width: 412px) {
+  .call-to-action-box {
+      margin-bottom: -18rem;
+  }
+}
