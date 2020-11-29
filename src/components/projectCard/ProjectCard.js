@@ -11,8 +11,8 @@ const ProjectCard = ({ name, description, url, sourceCode }) => {
           {description}
         </p>
         <div className='project-links'>
-          <a href={url} >View Live</a>
-          <a href={sourceCode} >Source Code</a>
+          <a className='button' href={url} target='blank'>View Live</a>
+          <a className='button' href={sourceCode} target='blank'>Source Code</a>
         </div>
       </div>
     </div>
