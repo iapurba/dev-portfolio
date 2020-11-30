@@ -15,7 +15,7 @@ export const skills = [
   {
     icon: faServer,
     title: "Back-end",
-    description: "When someone requests me someting I couldn't wait to response. ",
+    description: "I do love creating powerful, reliable software which reflects the client's brand.",
     languages: "Python, JavaScript(NodeJs)",
     software: {
       name: "Frameworks & Libraries",
@@ -26,7 +26,7 @@ export const skills = [
   {
     icon: faDatabase,
     title: "DBMS",
-    description: "Data is everything. Keeping it safe, secure and organized is my priority I reckon.",
+    description: "Data is everything. Keeping it safe, secure and organized is my responsibility I believe.",
     languages: "SQL",
     software: {
       name: "Databases",
