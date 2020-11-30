@@ -5,7 +5,7 @@ import logo from '../../assets/brandLogo2.png';
 const Logo = () => {
   return (
     <div className='navbar-brand'>
-      <a href='/'>
+      <a href='#App'>
         <img alt='Apurba Panja Logo' src={logo} />
       </a>
     </div>
