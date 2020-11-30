@@ -12,7 +12,7 @@ import brandLogo from '../assets/brandLogo2.png';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id='App'>
       <Navigation />
       <HeroSection profileImage={profleImage} />
       <About />
