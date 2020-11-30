@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import SocialLink from '../socialLink/SocialLink';
 import Logo from '../logo/Logo';
 import './Footer.css';
@@ -16,7 +16,7 @@ const Footer = () => {
       </Row>
       <SocialLink />
       <div className='box-child'>
-        <p className='title'>Created by me &#169; 2021 </p>
+        <p className='title'>Created by me &#169; 2020 </p>
       </div>
     </footer>
   );
