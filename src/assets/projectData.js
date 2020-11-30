@@ -7,7 +7,7 @@ export const projects = [
   },
   {
     name: "RoboFriends",
-    description: "All these beautiful robot frieds you need. Search your favourite one first.",
+    description: "All these beautiful robot friends you need. Search your favourite one first.",
     url: "https://iapurba.github.io/robofriends/",
     sourceCode: "https://github.com/iapurba/robofriends"
   },
