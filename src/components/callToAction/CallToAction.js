@@ -12,10 +12,9 @@ const CallToAction = () => {
             <h2>Let's chat</h2>
           </div>
           <div className='level-item'>
-            <p>Have a project you would like me to work on? Give me a call or drop me an email.</p>
+            <p>Have a project you would like me to work on? Drop me an email.</p>
           </div>
           <div className='level-item'>
-            <h5>+91 9051555135</h5>
             <h5>iamapurbax@gmail.com</h5>
           </div>
         </div>
